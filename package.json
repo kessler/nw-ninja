@@ -1,0 +1,30 @@
+{
+  "name": "nw-ninja",
+  "version": "0.0.1",
+  "description": "minimal quick start node webkit project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kessler/nw-ninja"
+  },
+  "keywords": [
+    "node-webkit"
+  ],
+  "author": "Yaniv Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kessler/nw-ninja/issues"
+  },
+  "homepage": "https://github.com/kessler/nw-ninja",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "gulp": "^3.8.7",
+    "gulp-logger": "0.0.2",
+    "gulp-template": "^1.0.0",
+    "gulp-util": "^3.0.0",
+    "node-webkit-builder": "^0.1.1"
+  }
+}
