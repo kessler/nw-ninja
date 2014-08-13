@@ -2,30 +2,18 @@ var gulp = require('gulp')
 var gutil = require('gulp-util')
 var path = require('path')
 var NwBuilder = require('node-webkit-builder')
-var logger = require('gulp-logger')
+var config = require('./config.js')
 
-gulp.task('build', function() {
-	var nw = new NwBuilder({
-	    files: './nwapp/**/**', // use the glob format
-	    platforms: [ 'osx', 'win' ],
-	    buildDir: './dist',
-	    buildType: 'versioned',
-	    version: 'v0.10.2'
-	})
+gulp.task('build', function(cb) {
+	var nw = new NwBuilder(config)
 
 	nw.on('log', gutil.log)
 
-	return nw.build()
+	return nw.build(cb)
 })
 
 gulp.task('run', function(cb) {
-	var nw = new NwBuilder({
-	    files: './nwapp/**/**', // use the glob format
-	    platforms: ['win','osx'],
-	    buildDir: './dist',
-	    buildType: 'versioned',
-	    version: 'v0.10.2'
-	})
+	var nw = new NwBuilder(config)
 
 	nw.on('log', gutil.log)
 

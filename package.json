@@ -1,7 +1,7 @@
 {
   "name": "nw-ninja",
   "version": "0.0.1",
-  "description": "minimal quick start node webkit project",
+  "description": "minimal node-webkit starter project for ninjas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,11 +20,9 @@
   },
   "homepage": "https://github.com/kessler/nw-ninja",
   "dependencies": {
-    "browserify": "^5.9.3",
     "gulp": "^3.8.7",
-    "gulp-logger": "0.0.2",
-    "gulp-template": "^1.0.0",
     "gulp-util": "^3.0.0",
-    "node-webkit-builder": "^0.1.1"
+    "node-webkit-builder": "^0.1.1",
+    "rc": "^0.5.0"
   }
 }
