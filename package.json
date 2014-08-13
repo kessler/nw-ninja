@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kessler/nw-ninja",
   "dependencies": {
-    "debug": "^1.0.4",
+    "browserify": "^5.9.3",
     "gulp": "^3.8.7",
     "gulp-logger": "0.0.2",
     "gulp-template": "^1.0.0",
