@@ -1,5 +1,0 @@
-# nw-ninja
-
-```
-gulp build
-```
