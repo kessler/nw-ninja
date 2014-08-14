@@ -7,20 +7,23 @@ node-webkit starter project for ninjas
 git clone https://github.com/kessler/nw-ninja
 ```
 
+### develop:
+```
+	gulp run
+```
+An auto reload script will be added to the page. It will reload the content inside node-webkit when stuff changes (nodeMain code will not be affected)
+
+### run, but not in debug mode:
+```
+	gulp run --debug=false
+```
+### build:
 ```
 gulp build
 ```
-
+### launch (implies build): (TBD)
 ```
-gulp run
-```
-
-```
-gulp compile
-```
-
-```
-gulp watch
+gulp launch
 ```
 
 ### config

@@ -1,3 +1,6 @@
+/*
+	this config file is used to configure the nw-ninja envelope, not the app itself
+*/
 var rc = require('rc')
 
 module.exports = rc('nw-ninja', {

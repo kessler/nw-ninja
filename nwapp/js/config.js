@@ -4,5 +4,5 @@ var minimist = require('minimist')
 var gui = require('nw.gui')
 
 window.$appConfig = rc(packageJson.name, {
-	debug: false
+	debug: true
 }, minimist(gui.App.argv))
