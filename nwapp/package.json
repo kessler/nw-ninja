@@ -10,7 +10,7 @@
     "url": ""
   },
   "main": "index.html",
-  "node-main": "",
+  "node-main": "nodeMain.js",
   "single-instance": true,
   "chromium-args": "",
   "dom_storage_quota": 1024,
@@ -30,5 +30,7 @@
     "fullscreen": false
   },
   "dependencies": {
+    "minimist": "^1.1.0",
+    "rc": "^0.5.0"
   }
 }
