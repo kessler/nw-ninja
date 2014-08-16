@@ -5,3 +5,4 @@ gulp.task('reload', function () {
 })
 
 gulp.watch('**/*', ['reload'])
+console.log('watching changes, page will reload automatically.')	
