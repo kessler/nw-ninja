@@ -1,21 +1,16 @@
 var rc = require('rc')
 var packageJson = require('../package.json')
 var minimist = require('minimist')
+var argv = require('./argv.js')
+var LogLevel = require('yalla').LogLevel
 
-var config
-
-module.exports.init = function (argv) {
-
-	config = rc(packageJson.name, {
-		debug: false
-	}, minimist(argv))
-
-	return config
+var defaults = {		
+	debug: false,
+	appName: packageJson.name,
+	logLevel: LogLevel.INFO,
+	templatePath: 'template',
+	height: packageJson.window.min_height,
+	width: packageJson.window.min_width
 }
 
-module.exports.get = function () {
-	if (!config)
-		throw new Error('config not initialized, call init() first')
-
-	return config
-}
+module.exports = rc(packageJson.name, defaults, minimist(argv.get()))
