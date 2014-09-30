@@ -11,12 +11,8 @@ git clone https://github.com/kessler/nw-ninja
 ```
 	gulp run
 ```
-An auto reload script will be added to the page. It will reload the content inside node-webkit when stuff changes (nodeMain code will not be affected)
+use --debug=[true|false] (default: true)
 
-### run, but not in debug mode:
-```
-	gulp run --debug=false
-```
 ### build:
 ```
 gulp build
