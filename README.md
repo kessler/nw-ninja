@@ -5,6 +5,7 @@ node-webkit starter project for ninjas
 
 ```
 git clone https://github.com/kessler/nw-ninja
+npm install && cd nwapp && npm install
 ```
 
 ### develop:
