@@ -35,11 +35,11 @@ gulp.task('cleanModules', function (cb) {
 	
 	var paths = [
 		'.bin',
-		// path.join('lodash', 'dist', 'lodash.compat.js'),
-		// path.join('lodash', 'dist', 'lodash.compat.min.js'),
-		// path.join('lodash', 'dist', 'lodash.min.js'),
-		// path.join('lodash', 'dist', 'lodash.underscore.js'),
-		// path.join('lodash', 'dist', 'lodash.underscore.min.js'),
+		path.join('lodash', 'dist', 'lodash.compat.js'),
+		path.join('lodash', 'dist', 'lodash.compat.min.js'),
+		path.join('lodash', 'dist', 'lodash.min.js'),
+		path.join('lodash', 'dist', 'lodash.underscore.js'),
+		path.join('lodash', 'dist', 'lodash.underscore.min.js'),
 		path.join('minimist', 'example'),
 		path.join('minimist', 'test'),
 		path.join('minimist', 'example')

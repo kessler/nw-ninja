@@ -18,10 +18,6 @@ use --debug=[true|false] (default: true)
 ```
 gulp build
 ```
-### launch (implies build): (TBD)
-```
-gulp launch
-```
 
 ### config
 
