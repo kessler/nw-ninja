@@ -1,0 +1,11 @@
+[	
+	[ "node_modules", ".bin" ],
+	[ "node_modules", "lodash", "dist", "lodash.compat.js" ],
+	[ "node_modules", "lodash", "dist", "lodash.compat.min.js" ],
+	[ "node_modules", "lodash", "dist", "lodash.min.js" ],
+	[ "node_modules", "lodash", "dist", "lodash.underscore.js" ],
+	[ "node_modules", "lodash", "dist", "lodash.underscore.min.js" ],
+	[ "node_modules", "minimist", "example" ],
+	[ "node_modules", "minimist", "test" ],
+	[ "node_modules", "minimist", "example" ]
+]
