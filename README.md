@@ -5,25 +5,26 @@ node-webkit starter project for ninjas
 
 ```
 git clone https://github.com/kessler/nw-ninja
+npm install && cd nwapp && npm install
 ```
 
 ### develop:
 ```
 	gulp run
 ```
-An auto reload script will be added to the page. It will reload the content inside node-webkit when stuff changes (nodeMain code will not be affected)
+use --debug=[true|false] (default: true)
 
-### run, but not in debug mode:
-```
-	gulp run --debug=false
-```
 ### build:
 ```
 gulp build
 ```
-### launch (implies build): (TBD)
+
+### other tasks:
+
+#### preBuildClean
+clean / delete files before build, to customize, edit preBuildCleanList.json. The paths are relative to ninjaConfig.appDir, this task is run before build task too
 ```
-gulp launch
+gulp preBuildClean
 ```
 
 ### config
@@ -31,5 +32,3 @@ gulp launch
 There are two configuration contexts, one for the nw-ninja envelope and one for the actual application.
 
 The envelope configuration is just [rc](https://github.com/dominictarr/rc)
-
-The application configuration is also [rc](https://github.com/dominictarr/rc) but it is exposes through the window object as $appConfig. This is done so I can take in command line arguments given to node-webkit and incorporate them into [rc](https://github.com/dominictarr/rc) using nw.gui module.
