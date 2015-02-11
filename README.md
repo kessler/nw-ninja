@@ -1,5 +1,5 @@
-nw-ninja (WIP)
-==============
+nw-ninja 
+=========
 
 node-webkit starter project for ninjas
 
