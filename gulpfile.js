@@ -42,5 +42,5 @@ gulp.task('preBuildClean', function (cb) {
 	gutil.log('deleting the following:')
 	gutil.log(preBuildCleanList)
 	
-	return async.each(paths, rimraf, cb)
+	return async.each(path, rimraf, cb)
 })
