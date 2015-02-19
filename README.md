@@ -1,7 +1,7 @@
 nw-ninja 
 ======
 
-node-webkit starter project for ninjas
+A minimalistic NW.js starter project for ninjas
 
 ```
 git clone https://github.com/kessler/nw-ninja
