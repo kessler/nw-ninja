@@ -1,5 +1,5 @@
 nw-ninja 
-=========
+======
 
 node-webkit starter project for ninjas
 
@@ -8,18 +8,18 @@ git clone https://github.com/kessler/nw-ninja
 npm install && cd nwapp && npm install
 ```
 
-### develop:
+### develop
 ```
 	gulp run
 ```
 use --debug=[true|false] (default: true)
 
-### build:
+### build
 ```
 gulp build
 ```
 
-### other tasks:
+### other tasks
 
 #### preBuildClean
 clean / delete files before build, to customize, edit preBuildCleanList.json. The paths are relative to ninjaConfig.appDir, this task is run before build task too

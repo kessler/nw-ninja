@@ -8,6 +8,9 @@ var preBuildCleanList = require('./preBuildCleanList.json')
 var NwBuilder = require('node-webkit-builder')
 var ninjaConfig = require('./ninjaConfig.js')
 
+/*
+ *	build the application into the build dir for the specified platforms
+ */
 gulp.task('build', ['preBuildClean'], function(cb) {
 	var nw = new NwBuilder(ninjaConfig)
 
@@ -16,6 +19,9 @@ gulp.task('build', ['preBuildClean'], function(cb) {
 	return nw.build(cb)
 })
 
+/*
+ *	Launch the application. Unless otherwise specified the application with launch in debugMode
+ */
 gulp.task('run', function(cb) {
 
 	if (!ninjaConfig.debug)
@@ -28,7 +34,9 @@ gulp.task('run', function(cb) {
 	return nw.run(cb)
 })
 
-
+/*
+ *	clean all the files listed in preBuildCleanList.json. This task is normally run before the build task
+ */
 gulp.task('preBuildClean', function (cb) {
 	gutil.log('cleaning files before build...')
 	
