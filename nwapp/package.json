@@ -16,7 +16,7 @@
   "dom_storage_quota": 1024,
   "window": {
     "//": "screen settings",
-    "title": "AV app",
+    "title": "nw-ninja",
     "icon": "link.png",
     "toolbar": true,
     "frame": true,
