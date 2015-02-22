@@ -11,5 +11,7 @@ module.exports = function(cb) {
 
 	nw.on('log', gutil.log)
 	
-	return nw.run(cb)
+	nw.run(cb)
+
+	return nw
 }
