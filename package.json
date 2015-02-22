@@ -1,6 +1,6 @@
 {
   "name": "nw-ninja",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "minimal node-webkit starter project for ninjas",
   "main": "index.js",
   "scripts": {
