@@ -19,5 +19,5 @@ module.exports = function (cb) {
 	gutil.log('deleting the following:')
 	gutil.log(preBuildCleanList)
 	
-	return async.each(path, rimraf, cb)
+	return async.each(preBuildCleanList, rimraf, cb)
 }
