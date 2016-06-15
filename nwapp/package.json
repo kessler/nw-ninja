@@ -30,8 +30,8 @@
     "fullscreen": false
   },
   "dependencies": {
-    "minimist": "^1.1.0",
-    "rc": "^0.5.0",
-    "yalla": "^0.1.4"
+    "minimist": "^1.2.0",
+    "rc": "^1.1.6",
+    "yalla": "^0.2.2"
   }
 }
