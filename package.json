@@ -24,9 +24,11 @@
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.7",
     "lodash": "^4.13.1",
+    "minimist": "^1.2.0",
     "node-webkit-builder": "^1.0.13",
     "rc": "^1.1.6",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "yalla": "^0.2.2"
   },
   "devDependencies": {}
 }
