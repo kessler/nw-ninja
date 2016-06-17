@@ -1,4 +1,4 @@
-var NwBuilder = require('node-webkit-builder')
+var NwBuilder = require('nw-builder')
 var ninjaConfig = require('../ninjaConfig.js')
 var gutil = require('gulp-util')
 

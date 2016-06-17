@@ -9,6 +9,6 @@ module.exports = rc('nw-ninja', {
 	platforms: ['osx64', 'win32', 'win64', 'linux32', 'linux64'],
 	buildDir: './dist',
 	buildType: 'versioned',
-	version: 'v0.14.6',
+	version: 'v0.12.3',
 	argv: process.argv.slice(2)
 })

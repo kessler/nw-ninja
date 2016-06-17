@@ -1,5 +1,5 @@
 var gutil = require('gulp-util')
-var NwBuilder = require('node-webkit-builder')
+var NwBuilder = require('nw-builder')
 var ninjaConfig = require('../ninjaConfig.js')
 
 module.exports = function(cb) {
