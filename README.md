@@ -4,13 +4,14 @@ nw-ninja
 A minimalistic NW.js starter project for ninjas
 
 ```
+npm install -g gulp
 git clone https://github.com/kessler/nw-ninja
 npm install && cd nwapp && npm install
 ```
 
 ### develop
 ```
-	gulp run
+gulp run
 ```
 use --debug=[true|false] (default: true)
 
