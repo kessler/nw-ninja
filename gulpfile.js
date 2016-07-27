@@ -14,3 +14,5 @@ gulp.task('run', require('./task/run.js'))
  *	clean all the files listed in preBuildCleanList.json. This task is normally run before the build task
  */
 gulp.task('preBuildClean', require('./task/preBuildClean.js'))
+
+gulp.task('default', ['run'])
