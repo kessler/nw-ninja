@@ -11,7 +11,7 @@ gulp.task('preBuildClean', preBuildClean)
 /*
  *	build the application into the build dir for the specified platforms
  */
-gulp.task('build', gulp.parallel(preBuildClean), build)
+gulp.task('build', gulp.series(gulp.parallel(preBuildClean), build))
 
 /*
  *	Launch the application. Unless otherwise specified the application with launch in debugMode
