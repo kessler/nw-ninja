@@ -25,7 +25,7 @@
     "gulp-util": "^3.0.7",
     "lodash": "^4.17.11",
     "minimist": "^1.2.0",
-    "nw-builder": "^3.5.4",
+    "nw-builder": "^3.5.6",
     "rc": "^1.1.6",
     "rimraf": "^2.5.2",
     "yalla": "^0.2.2"
