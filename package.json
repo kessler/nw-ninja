@@ -21,11 +21,11 @@
   "homepage": "https://github.com/kessler/nw-ninja",
   "dependencies": {
     "async": "^1.5.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-util": "^3.0.7",
     "lodash": "^4.13.1",
     "minimist": "^1.2.0",
-    "nw-builder": "^3.5.1",
+    "nw-builder": "^3.5.4",
     "rc": "^1.1.6",
     "rimraf": "^2.5.2",
     "yalla": "^0.2.2"
