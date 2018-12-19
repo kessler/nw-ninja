@@ -10,6 +10,7 @@ npm install && cd nwapp && npm install
 ```
 
 ### develop
+**important:** nw-ninja has moved to **gulp@4** (for security reasons actually)
 ```
 gulp run
 ```
